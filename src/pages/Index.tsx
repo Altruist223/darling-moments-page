@@ -145,16 +145,16 @@ const Index = () => {
         </h2>
 
         <div className="bg-card rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg border border-border animate-fade-in">
-          <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-            <div className="text-center px-4">
-              <Sparkles className="h-10 w-10 sm:h-12 sm:w-12 text-primary mx-auto mb-3 sm:mb-4" />
-              <p className="text-muted-foreground mb-3 sm:mb-4 text-sm sm:text-base">
-                Add your favorite playlist here
-              </p>
-              <p className="text-xs sm:text-sm text-muted-foreground">
-                (Spotify/YouTube embed URL)
-              </p>
-            </div>
+          <div className="aspect-video rounded-lg overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/BSJa1UytM8w?si=mVvd6nJtkFdyyyD0"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
           </div>
         </div>
       </section>
