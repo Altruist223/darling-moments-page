@@ -40,7 +40,7 @@ const Index = () => {
         
         <div className="relative z-10 text-center px-6 animate-fade-in">
           <h1 className="font-playfair text-4xl sm:text-6xl md:text-8xl font-bold text-white mb-4 md:mb-6 drop-shadow-2xl">
-            For <span className="text-primary animate-glow">Jagriti</span>
+            For <span className="text-primary animate-glow">Vipasana</span>
           </h1>
           <p className="font-inter text-lg sm:text-xl md:text-2xl text-white/90 font-light tracking-wide drop-shadow-lg">
             Our Story So Far
